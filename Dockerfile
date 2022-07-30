@@ -18,6 +18,7 @@ RUN pip install -r requirements.txt
 RUN rm -f requirements.txt
 
 COPY src .
+COPY data.json .
 
 EXPOSE 8090
 
